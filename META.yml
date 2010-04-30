@@ -1,0 +1,52 @@
+---
+abstract: 'An OpenX API'
+author:
+  - 'Ben van Staveren <benvanstaveren@gmail.com>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-OpenX-API
+provides:
+  WWW::OpenX::API:
+    file: lib/WWW/OpenX/API.pm
+    version: v0.1.6
+  WWW::OpenX::API::Constants:
+    file: lib/WWW/OpenX/API/Constants.pm
+  WWW::OpenX::API::Dispatch:
+    file: lib/WWW/OpenX/API/Dispatch.pm
+  WWW::OpenX::API::Dispatch::Table:
+    file: lib/WWW/OpenX/API/Dispatch/Table.pm
+  WWW::OpenX::API::Exception::ImplodeError:
+    file: lib/WWW/OpenX/API/Exception/ImplodeError.pm
+  WWW::OpenX::API::Exception::InvalidCredentials:
+    file: lib/WWW/OpenX/API/Exception/InvalidCredentials.pm
+  WWW::OpenX::API::Exception::MissingParameter:
+    file: lib/WWW/OpenX/API/Exception/MissingParameter.pm
+  WWW::OpenX::API::Exception::NeedAuth:
+    file: lib/WWW/OpenX/API/Exception/NeedAuth.pm
+  WWW::OpenX::API::Exception::RPC:
+    file: lib/WWW/OpenX/API/Exception/RPC.pm
+  WWW::OpenX::API::Exception::UnknownMethod:
+    file: lib/WWW/OpenX/API/Exception/UnknownMethod.pm
+  WWW::OpenX::API::RPC::XML::Client:
+    file: lib/WWW/OpenX/API/RPC/XML/Client.pm
+  WWW::OpenX::API::Role::Exception:
+    file: lib/WWW/OpenX/API/Role/Exception.pm
+  WWW::OpenX::API::Types:
+    file: lib/WWW/OpenX/API/Types.pm
+requires:
+  DateTime: 0
+  DateTime::Format::ISO8601: 0
+  Moose: 0
+  MooseX::NonMoose: 0
+  RPC::XML::Client: 0
+  Try::Tiny: 0
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: v0.1.6

@@ -1,0 +1,25 @@
+Build.PL
+Changes
+ignore.txt
+lib/WWW/OpenX/API.pm
+lib/WWW/OpenX/API/Constants.pm
+lib/WWW/OpenX/API/Dispatch.pm
+lib/WWW/OpenX/API/Dispatch/Table.pm
+lib/WWW/OpenX/API/Exception/ImplodeError.pm
+lib/WWW/OpenX/API/Exception/InvalidCredentials.pm
+lib/WWW/OpenX/API/Exception/MissingParameter.pm
+lib/WWW/OpenX/API/Exception/NeedAuth.pm
+lib/WWW/OpenX/API/Exception/RPC.pm
+lib/WWW/OpenX/API/Exception/UnknownMethod.pm
+lib/WWW/OpenX/API/Role/Exception.pm
+lib/WWW/OpenX/API/RPC/XML/Client.pm
+lib/WWW/OpenX/API/Types.pm
+MANIFEST			This list of files
+README
+t/00-load.t
+t/boilerplate.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml
